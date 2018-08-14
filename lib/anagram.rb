@@ -14,7 +14,7 @@ class Anagram
        check = item.split("")sort == word_array
        if check == true
        result << item
-     end
+      end
     end
     result
   end
