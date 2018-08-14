@@ -11,10 +11,10 @@ class Anagram
     word_array = word.split("").sort
     result = []
     array.each do |item|
-       if item.split("").sort == word_array
-       result << item
-      end
-    end
+      if item.split("").sort == word_array
+      result << item
+     end
+   end
     result
   end
 
