@@ -13,6 +13,7 @@ class Anagram
     array.each do |item|
        if item.split("")sort == word_array
        result << item
+     end 
     end
     result
   end
